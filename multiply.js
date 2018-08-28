@@ -36,4 +36,12 @@ console.log("left floating", leftFloating)
 console.log("right floating", rightFloating)
 
 //  - and multiply them by the fingers left floating in my right hand
+
+var floating = leftFloating * rightFloating
+
 //  - then ADD that number to RESULT 1
+
+var final = grouped + floating
+
+console.log ("final ", final)
+console.log ("proof ", left * right)
