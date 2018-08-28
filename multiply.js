@@ -22,11 +22,11 @@ function  calcGrouped(n) {
   return n - 5
 }
 
-var leftGrouped = calcGrouped(left)
+// var leftGrouped = calcGrouped(left)
 
 //  - do the same with my right hand for the second number
 
-var rightGrouped = calcGrouped(right)
+// var rightGrouped = calcGrouped(right)
 
 // console.log("left grouped", leftGrouped)
 // console.log("right grouped", rightGrouped)
@@ -39,18 +39,18 @@ var grouped = (calcGrouped(left) + calcGrouped(right)) * 10
 //  - count my left fingers left floating
 
 function calcFloating(n) {
-  return 5 - n
+  return 10 - n
 }
 
-var leftFloating = calcFloating(leftGrouped)
-var rightFloating = calcFloating(rightGrouped)
+// var leftFloating = calcFloating(left)
+// var rightFloating = calcFloating(right)
 
 // console.log("left floating", leftFloating)
 // console.log("right floating", rightFloating)
 
 //  - and multiply them by the fingers left floating in my right hand
 
-var floating = leftFloating * rightFloating
+var floating = calcFloating(left) * calcFloating(right)
 
 //  - then ADD that number to RESULT 1
 
