@@ -19,11 +19,21 @@ var leftGrouped = left - 5
 
 var rightGrouped = right - 5
 
-console.log(leftGrouped)
-console.log(rightGrouped)
+console.log("left grouped", leftGrouped)
+console.log("right grouped", rightGrouped)
 
 //  - join those 2 groups of fingers
 //  - count them and multiply by 10   <--- RESULT 1
+
+var grouped = (leftGrouped + rightGrouped) * 10
+
 //  - count my left fingers left floating
+
+var leftFloating = 5 - leftGrouped
+var rightFloating = 5 - rightGrouped
+
+console.log("left floating", leftFloating)
+console.log("right floating", rightFloating)
+
 //  - and multiply them by the fingers left floating in my right hand
 //  - then ADD that number to RESULT 1
