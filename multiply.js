@@ -1,4 +1,11 @@
 // - input 2 numbers between 6 and 10
+
+var left = process.argv.slice(2)[0]
+var right = process.argv.slice(2)[1]
+
+console.log(left)
+console.log(right)
+
 // - group fingers in left hand to represent first number according to this mapping:
 //   - thumb = 6
 //   - index = 7
