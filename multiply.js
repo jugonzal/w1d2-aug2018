@@ -3,8 +3,8 @@
 var left = process.argv.slice(2)[0]
 var right = process.argv.slice(2)[1]
 
-console.log(left)
-console.log(right)
+// console.log(left)
+// console.log(right)
 
 // - group fingers in left hand to represent first number according to this mapping:
 //   - thumb = 6
@@ -12,7 +12,16 @@ console.log(right)
 //   - middle = 8
 //   - ringer = 9
 //   - pinky = 10
+
+var leftGrouped = left - 5
+
 //  - do the same with my right hand for the second number
+
+var rightGrouped = right - 5
+
+console.log(leftGrouped)
+console.log(rightGrouped)
+
 //  - join those 2 groups of fingers
 //  - count them and multiply by 10   <--- RESULT 1
 //  - count my left fingers left floating
